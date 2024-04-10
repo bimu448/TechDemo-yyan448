@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>V-If-Else Sample</title>
+  </head>
+  <body>
+    <div id="app" class="demo">
+      <p v-if="showMessage">Hello Vue!</p>
+      <p v-else>Goodbye Vue!</p>
+      <button v-on:click=" showMessage =! showMessage ">Greeting</button>
+    </div>
+
+    <script>
+      const HelloVueApp = {
+        data() {
+          return {
+            showMessage: true,
+          };
+        },
+      };
+
+      Vue.createApp(HelloVueApp).mount("#app");
+    </script>
+  </body>
+</html>
