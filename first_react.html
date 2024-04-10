@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      const { useState, useEffect } = React;
+
+      function App() {
+        const [advice, setAdvice] = useState("");
+        const [count, setCount] = useState(0);
+
+        async function getAdvice() {
+          const res = await fetch("https://api.adviceslip.com/advice");
+          const data = await res.json();
+          setAdvice(data.slip.advice);
+          setCount((c) => c + 1);
+        }
+
+        useEffect(function () {
+          getAdvice();
+        }, []);
+
+        return (
+          <div>
+            <h1>{advice}</h1>
+            <button onClick={getAdvice}>Get advice</button>
+            <Message count={count} />
+          </div>
+        );
+      }
+
+      function Message({ count }) {
+        return (
+          <p>
+            You have read <strong>{count}</strong> pieces of advice
+          </p>
+        );
+      }
+
+      // Use ReactDOM to render the App component into the div with id 'root'
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+    <!--
+      Note: this page is a great way to try React but it's not suitable for production.
+      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
+
+      Read this page for starting a new React project with JSX:
+      https://react.dev/learn/start-a-new-react-project
+
+      Read this page for adding React with JSX to an existing project:
+      https://react.dev/learn/add-react-to-an-existing-project
+    -->
+  </body>
+</html>
