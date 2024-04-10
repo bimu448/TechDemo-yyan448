@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>V-Model Sample</title>
+  </head>
+  <body>
+    <div id="app" class="demo">
+      <input type="text" v-model="message" />
+      <p>{{ message }}</p>
+    </div>
+    <script>
+      const HelloVueApp = {
+        data() {
+          return {
+            message: "Hello Vue!!",
+          };
+        },
+      };
+      Vue.createApp(HelloVueApp).mount("#app");
+    </script>
+  </body>
+</html>
