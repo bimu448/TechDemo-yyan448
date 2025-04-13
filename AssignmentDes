@@ -1,0 +1,77 @@
+Assignment - Tech Demo
+Due Apr 14, 2024 by 11:59pm Points 20 Submitting a file upload
+Note: Assignment extended until April 14th!
+
+About the assignment
+In this course, we are looking at the world of modern web development, focusing on the MERN stack and related tools & libraries. However, there are far more tools, techniques, and technologies that are utilized in web development today, than could possibly be covered in a single course.
+
+In this assignment, you will demonstrate your ability to read beyond the course material, to research and gain experience with a tool, library, or framework not covered in lectures. Possibilities are given below. You will also demonstrate your ability to communicate your experiences and assist others, by preparing a demonstration of your chosen tool / framework.
+
+Finally, you will have the chance to browse the demos prepared by your fellow students and provide them with valuable feedback in a peer-review process.
+
+The individual assignment is worth 25% of your final grade for the course, and you are expected to put in around 30 hours of work to complete it.
+
+Demo
+Whatever topic you choose, you will need to prepare a demo, to show others how to use the tech that you have covered in your assignment. In addition to the demo itself, you should include sufficient documentation (e.g. in a README.md file) such that one of your fellow students could get the demo working on their machine and understand the codebase.
+
+A GitHub Classroom assignment has been created, for you to submit your demo code. The link is: https://classroom.github.com/a/daJbV9s4Links to an external site.
+
+The link above will create a blank GitHub repository for you, with full admin access. You are welcome to configure it however you like.
+
+Video presentation
+To accompany your tech demo, you will submit (via this Canvas page) a fifteen-minute video to introduce your topic. The video should ideally be standalone - that is, a viewer should not need to have your codebase available to them in order to be able to understand the video. The reverse need not be true - it's OK to expect that someone looking at your codebase will have seen your video first.
+
+Your video should briefly introduce your topic and present the tech demo which you have prepared.
+
+Peer review
+Following submission of the videos and code, you will be assigned a single other student's assignment to review, via this page. To do this, you will fill out a Google Form where you will discuss:
+
+Whether the video is understandable.
+Whether you can get the demo working on your machine (sufficient instructions should have been provided)
+Whether the demo is understandable.
+Whether you believe the required ~30 hours of work has been put into the submission.
+Possible topics
+The following is a non-exhaustive list of topics you could choose for this assignment. If you have an idea for a topic which is not listed here, you are welcome to seek approval from Andrew (andrew.meads@auckland.ac.nz) prior to starting.
+
+Frontend frameworks
+React isn't the only frontend web development framework in town. Other up-and-coming examples include, but are not limited to: Vue, Svelte, Angular, and Blazor. Prepare a demo showing how one might start developing using one of these alternative frameworks. Include aspects such as application structure, tool support, state management, routing, etc. Include a comparison between React and your chosen framework. Note: Those who have covered any of these frameworks in a prior course may not choose that framework for this assignment!
+
+CSS libraries / frameworks
+This one is for the UI/UX-minded people! Many CSS libraries / frameworks exist, such as MUI and React Bootstrap. Similarly, tools such as Tailwind CSS allow designers & developers to streamline the process of styling a web application.
+
+Pick Tailwind CSS and / or a CSS framework of your choice and prepare a comprehensive code-along demo for someone new to follow. The demo should show viewers how to get setup with Vite + React + your chosen framework, go over the documentation to show the breadth of what is possible with the framework, and provide a code-along demo where viewers will build out a complex webpage.
+
+Other web languages
+Believe it or not, JavaScript is not the only language for web development! The most common alternative is Typescript, which adds type safety to JavaScript. However, there are also other options such as Web Assembly and the various languages that can compile to it. Prepare a demo comparing and contrasting some code in JavaScript versus one of these alternatives (perhaps pick some class examples / lab exercises so viewers will be familiar with the content), explain the benefits and tradeoffs of your alternative language, and show how a web developer already familiar with JavaScript can dive into your alternative.
+
+Mobile development
+There exist several methods to enable cross-platform mobile development - that is, development of mobile applications which function on multiple device types (Android, iOS, etc). PWAs are one such technique, but there are many other options, including React NativeLinks to an external site., IonicLinks to an external site., XamarinLinks to an external site., and FlutterLinks to an external site.. Select a cross-platform development framework of your choice and prepare a demo which explains the toolchain involved - including how to test your app on real mobile devices. Also include in your demo some examples and explanation of the differences between web development using React, and mobile development using your chosen framework.
+
+AI Tooling
+These days, everyone knows about tools like ChatGPT / GitHub Copilot, and many of us have probably at least tried using them in projects / assignments. However, the world of AI-powered tooling is much bigger than just those two technologies! For this topic, prepare a demo showing off a true AI-powered development environment using a selection of tools you choose. This can (and probably will) include ChatGPT / Copilot but should also include additional AI tooling and integration into a proper development experience.
+
+Submission
+The submission of the assignment is as follows:
+
+Codebase
+The main branch of your GitHub repo, as of the due date on this Canvas assignment page, will serve as your code submission.
+
+DO NOT commit your node_modules folder, or any build files. These should be appropriately .gitignore'd. Failure to adhere to this instruction will result in an automatic 50% penalty for the assignment.
+
+Private information / API keys
+If your submission has any private info / API keys which you do not want to commit to your GitHub repository, please submit the info via this Google formLinks to an external site.. I will distribute the info only to the markers and peer reviewers of your project.
+
+Video
+You must also submit a single video file containing your presentation to this Canvas assignment page, on or before the due date.
+
+Peer review
+You must submit your peer review via Google Form, by the due date on the peer review page.
+
+Assessment criteria
+Your submission will be graded according to the following criteria:
+
+Video: Fits within the 15-minute limit; does not have the recording sped up to fit within the limit; speech is clear, concise and understandable; video has sufficient technical depth.
+The fifteen-minute time limit is strict - you will be penalized for going over (even by a few seconds). You will also be penalized for speeding up your recording just to fit it in (that makes videos much harder to understand).
+Codebase: Well-structured, well-documented code; matches what is shown in the video; sufficient technical depth (see topics above for what may be considered "sufficient" for a given topic)
+Documentation: README.md file contains clear instructions for running your codebase; following instructions works as intended; README contains a written description of important elements / concepts you have covered, with links to relevant parts of your codebase where appropriate.
+Your peer reviews will be graded according to the quality of the feedback you have given to your reviewee. Be sure to let your reviewee know of any relevant strengths, weaknesses, and areas for improvement in their submission.
